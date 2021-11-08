@@ -1,0 +1,27 @@
+* {padding: 0; margin: 0;}
+
+body {overflow-y: hidden;}
+
+.heading {text-align: center; font-family: 'Montserrat', sans-serif; background: #7027A0; color: #fff; padding: 10px 0;}
+.heading span {font-size: 12px; font-weight: 400; margin-left: -5px}
+.user-input {margin-bottom: 20px;}
+.input-row {width: 420px; box-shadow: 2px 2px 10px rgba(0,0,0,0.3); text-align: center; padding: 10px; border-radius: 10px;}
+.input-col {width: 400px; display: flex; background: #fff; justify-content: space-between; padding: 10px; border-radius: 5px;}
+.input-col img {width: 25%; cursor: pointer; padding: 8px; transition: 0.3s; border-radius: 5px;}
+.input-col img:hover {background: #C8E3D4; transform: scale(1.2)}
+.user-info {font-family: 'Roboto', sans-serif; font-size: 20px; margin-top: 10px;}
+.scorecard {padding: 10px; background: #fff; box-shadow: 2px 2px 10px rgba(0,0,0,0.3); width: 130px; text-align: center; border-radius: 5px;}
+.scorebox {background: #F9E4C8; width: 130px; height: 100px; border-radius: 5px; margin-bottom: 5px; font-family: 'Roboto', sans-serif; font-size: 90px; font-weight: 700;}
+.scorecard h2 {font-family: 'Roboto', sans-serif; font-size: 20px;}
+.user {margin-bottom: 20px;}
+.mega-flex {display: flex; align-items: center; justify-content: space-between; width: 45%; margin: 2% auto 0 auto;}
+.result {text-align: center; font-family: 'Ppppins', sans-serif; font-size: 18px; margin-top: 30px;}
+.modal {width: 450px;position: absolute; transform: translate(-50%,-50%); top: 50%; left: 50%; background: #fa937f; text-align: center; padding: 20px; border-radius: 10px; border: 8px solid #E02401;}
+.game-result {width: 75%; margin: 0 auto 20px auto; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 500;}
+.replay {padding: 10px 20px; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 15px; cursor: pointer;  background: #2C2891; color: #fff; transition: 0.3s; border: none}
+.replay:hover {background: #7027A0}
+.modal-container {transform: scale(0);background: rgba(200,227,212,0.9); height: 100vh; position: absolute; top: 0; left: 0; width: 100%; transition: 0.3s;}
+.footer {height: 70px; background: #7027A0; width: 100%; margin-top: 5%; padding-top: 2px;}
+.credit {text-align: center; font-family: 'Poppins', sans-serif; font-size: 19px; color: #fff; font-weight: 500; }
+.copyright {text-align: center; font-family: 'Poppins', sans-serif; font-size: 17px; color: #fff; font-weight: 300; line-height: 1.2;}
+.modal img {width: 30%;}
